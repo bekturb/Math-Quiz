@@ -6,11 +6,13 @@
   "scripts": {
     "start": "webpack serve",
     "build-dev": "webpack",
-    "build-prod": "webpack --node-env=production"
+    "build-prod": "webpack --node-env=production",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://bekturb.github.io/Math-quiz",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
@@ -31,6 +33,7 @@
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.12.1",
+    "gh-pages": "^4.0.0"
   }
 }
