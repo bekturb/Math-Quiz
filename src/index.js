@@ -1,0 +1,7 @@
+import './index.html'
+import './index.scss'
+import './js/player'
+import './js/mode'
+import './js/math'
+import './js/result'
+import './js/leadboard'

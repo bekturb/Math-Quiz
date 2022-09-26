@@ -1,0 +1,201 @@
+
+.result{
+  max-width: 758px;
+  background: #39459b;
+  border: 10px solid #0d99d7;
+  padding: 77px 99px 87px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  &__prev{
+    border: none;
+    width: 102px;
+    height: 41px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #2098D1;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+    &:hover {
+      border-color: transparent;
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+  &__info{
+  }
+
+  &__expire{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: white;
+  }
+
+  &__title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: rgba(203,90,161,255);
+  }
+  &__score{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: rgba(203,90,161,255);
+  }
+  &__correct{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: white;
+  }
+  &__amount{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: rgba(203,90,161,255);
+  }
+
+  &__incorrect{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: white;
+  }
+  &__incorrect-amount{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 22px;
+    color: rgba(203,90,161,255);
+  }
+  &__btn--lead{
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid #fff;
+    margin: 10px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #2098D1;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+    &:hover {
+      border-color: transparent;
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+  &__btn--replay{
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid #fff;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    transition-property: color;
+    transition-duration: 0.3s;
+
+    &:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #2098D1;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+    &:hover {
+      border-color: transparent;
+      &:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Math-quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slider">
+            <div class="slider__item">
+                <div class="form">
+                    <h3 class="">Enter Your Name</h3>
+                    <label class="form-group">
+                        <input name="name" type="text" class="form-control form-control--border">
+                        <span>Your Name</span>
+                        <span class="border"></span>
+                        <span class="form-error">*******</span>
+                    </label>
+                    <button class="form__submit">Submit
+                        <i class="zmdi zmdi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="slider__item mode">
+                <form class="form">
+                    <h3 class="form__title">Welcome <span class="form__userName"></span> to Math Quiz</h3>
+                    <p class="form__subtitle">Do you want to play? <br> So Choose your mode and enjoy!</p>
+                    <input class="form__input" type="radio" checked id="practice" name="mode" value="practise">
+                    <label class="form-group" for="practice">Practise</label> <br>
+                    <input class="form__input" type="radio" id="attack" name="mode" value="attack">
+                    <label class="form-group" for="attack">Attack</label> <br>
+                </form>
+                <div class="about">
+                    <button class="about__game" href="">don’t know rules? clicke here!</button>
+                    <button class="about__leadboard" href="">LEADERBOARD</button>
+                </div>
+            </div>
+            <div class="slider__item math">
+                <div class="math__timer">
+                    <span class="math__minute"></span>
+                    <span class="math__dots"></span>
+                    <span class="math__second"></span>
+                </div>
+                <div class="math__greet">
+                    <h1 class="math__name">Have fun <span class="math__user"></span> :)</h1>
+                    <button class="math__stop">Stop</button>
+                </div>
+                <div class="math__slider">
+                    <div class="math__slide">
+                        <div class="math__main">
+                            <div class="math__num-1"></div>
+                            <div class="math__operator">+</div>
+                            <div class="math__num-2"></div>
+                            <div class="math__equal">=</div>
+                            <input type="number" class="math__result">
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <h2 class="center__score">Score:</h2>
+                    <div class="center__win">0</div>
+                    <div class="center__add"></div>
+                </div>
+            </div >
+            <div class="slider__item result">
+                <button class="result__prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="result__info">
+                    <h1 class="result__expire">TIME'S UP</h1>
+                    <p class="result__title">Your score:</p>
+                    <h2 class="result__score">23</h2>
+                    <p class="result__correct">Correct: <span class="result__amount"></span></p>
+                    <p class="result__incorrect">Incorrect: <span class="result__incorrect-amount">0</span></p>
+                </div>
+                <div class="result__leadBoard">
+                    <button class="result__btn--lead">LeadBoard</button>
+                    <button class="result__btn--replay">Play again</button>
+                </div>
+            </div>
+            <div class="slider__item users">
+                <div class="users__wrapper">
+                    <div class="users__sort">
+                        <button class="users__back"><i class="fa-solid fa-chevron-left"></i></button>
+                        <select name="select-mode" id="modes" class="users__mode">
+                            <option value="Practise">Practise</option>
+                            <option selected value="Attack">Attack</option>
+                        </select>
+                    </div>
+                    <div class="info">
+                        <h1 class="info__title">LEADERBOARD</h1>
+                        <ul class="info__list">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
