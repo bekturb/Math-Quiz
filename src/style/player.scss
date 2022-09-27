@@ -1,10 +1,9 @@
 
 .container {
+  max-width: 1140px;
   min-height: 100vh;
   margin: 0 auto;
   padding: 0 10px;
-  background: url('./img/quiz-bg.jpeg') no-repeat;
-  background-size: cover;
 
   .slider {
     overflow: hidden;
@@ -14,7 +13,7 @@
     background: transparent;
 
     &__item {
-      margin: 35px 0;
+      margin: 35px auto;
       width: 758px;
       height: 664px;
       background: #39459b;

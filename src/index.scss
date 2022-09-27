@@ -5,12 +5,15 @@
 @import "./style/math";
 @import "./style/result";
 @import "./style/users";
+@import "./style/media";
 
 body {
     font-family: "Montserrat-Regular";
     color: #fff;
     font-size: 15px;
     margin: 0;
+    background: url('./img/quiz-bg.jpeg') no-repeat;
+    background-size: cover;
 }
 
 
@@ -45,8 +48,4 @@ li,ol,ul{
 
 a,a:hover{
     text-decoration: none;
-}
-
-
-.container{
 }
