@@ -112,7 +112,103 @@
 
 @media (max-width: 575.98px) {
 
-  .container .slider {
-    width: auto;
+  .container{
+    .slider {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+
+  .container{
+    .slider {
+      &__item{
+        width: 290px;
+        h3 {
+          margin: 0 -62px;
+          font-size: 31px;
+          width: 200px;
+        }
+        .form-group{
+          .form-control {
+            width: 200px;
+            margin: 50px -51px;
+          }
+        }
+        .form__submit {
+          margin-left: -38px;
+          margin: 30px -42px;
+        }
+        .practise-margin{
+          margin-left: -38px;
+        }
+      }
+    }
+     .mode{
+       .form__subtitle {
+         font-size: 12px;
+         width: 200px;
+         margin: 23px -60px;
+       }
+       .about {
+         &__game {
+           width: 200px;
+         }
+       }
+     }
+    .math{
+      &__name {
+        width: 200px;
+        margin-left: -62px;
+      }
+      &__stop {
+        margin-left: -30px;
+        border: none;
+        width: 149px;
+        height: 42px;
+      }
+      &__main {
+        margin-left: -57px;
+      }
+      &__result {
+        margin-top: -20px;
+        padding: 15px 30px;
+      }
+    }
+    .result{
+      &__expire {
+        font-size: 26px;
+      }
+      &__title {
+        margin-bottom: -29px;
+      }
+      &__score{
+        margin-bottom: -12px;
+      }
+      &__correct {
+        margin-left: -30px;
+      }
+      &__incorrect {
+        margin-left: -30px;
+      }
+      &__btn--lead {
+        margin: 10px -42px;
+      }
+      &__btn--replay {
+        margin: 10px -42px;
+      }
+    }
+    .users{
+      &__wrapper {
+        margin: -28px -80px;
+        width: 242px;
+      }
+      .info{
+        &__title {
+          font-size: 21px;
+        }
+      }
+    }
   }
 }
